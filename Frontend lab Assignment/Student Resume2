@@ -1,0 +1,21 @@
+<div class="resume-container">
+    <h1>Aanya Maheshwari</h1>
+    <div class="contact-info">
+        <p>Email: aanya@example.com | Phone: +91 9876543210</p>
+        <p>University Roll No: 22515000002 | Section: NC</p>
+    </div>
+
+    <h3>Objective</h3>
+    <p>A dedicated Computer Science student looking forward to building innovative web applications and strengthening front-end development skills.</p>
+
+    <h3>Education</h3>
+    <p><strong>B.Tech in Computer Science & Engineering</strong><br>
+    University Roll No: 22515000002 (Batch / Section: NC)</p>
+
+    <h3>Technical Skills</h3>
+    <ul>
+        <li>Languages: HTML5, CSS3, JavaScript</li>
+        <li>Frameworks: Bootstrap</li>
+        <li>Tools: Git & GitHub, VS Code</li>
+    </ul>
+</div>
