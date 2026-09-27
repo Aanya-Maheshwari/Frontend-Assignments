@@ -1,40 +1,41 @@
-<div class="form-container">
-    <h2>Student Registration Form</h2>
-    <form>
-        <label for="fullname">Full Name:</label>
-        <input type="text" id="fullname" name="fullname" placeholder="Enter your name" required>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Registration form</title>
+        </head>
+        <body>
+            <h2>Registration</h2>
+            <form>
+                <label for="fullname">Full name:</label><br>
+                <input type="text" id="fullname" name="fullname" required><br><br>
 
-        <label for="email">Email Address:</label>
-        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                <label for="email">Emain address</label><br>
+                <input type="email" id="email" name="email address" required><br><br>
 
-        <label for="password">Password:</label>
-        <input type="password" id="password" name="password" placeholder="Create a password" required>
+                <label for="password">password</label><br>
+                <input type="password" id="password" name="password"><br><br>
 
-        <label>Gender:</label>
-        <div class="radio-group">
-            <input type="radio" id="male" name="gender" value="male">
-            <label for="male" style="font-weight: normal;">Male</label>
-            &nbsp;&nbsp;
-            <input type="radio" id="female" name="gender" value="female">
-            <label for="female" style="font-weight: normal;">Female</label>
-        </div>
+                <label> gender:</label><br>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">male: </label><br>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">female: </label><br>
+                <input type="radio" id="other" name="gender" value="other">
+                <label for="other">other: </label><br><br>
 
-        <label>Hobbies:</label>
-        <div class="checkbox-group">
-            <input type="checkbox" id="reading" name="hobby" value="reading">
-            <label for="reading" style="font-weight: normal;">Reading</label>
-            &nbsp;&nbsp;
-            <input type="checkbox" id="coding" name="hobby" value="coding">
-            <label for="coding" style="font-weight: normal;">Coding</label>
-        </div>
+                <input type="checkbox" id="terms" name="terms" required>
+                <label for="terms"> i accept the trms and conditions</label><br><br>
 
-        <label for="course">Select Course:</label>
-        <select id="course" name="course">
-            <option value="btech">B.Tech CSE</option>
-            <option value="mca">MCA</option>
-            <option value="bca">BCA</option>
-        </select>
+                <label for="course"> select course</label>
+                <select id="course" name="course">
+                    <option value="btech"> Btech cse</option>
+                    <option value="mca">MCA </option>
+                    <option value="bba">BBA</option>
+                </select><br><br>
 
-        <input type="submit" value="Register Now">
-    </form>
-</div>
+                <button type="Submit">Submit </button>
+                
+            </form>
+        </body>
+</html>
